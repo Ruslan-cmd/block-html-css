@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="style.css">
+<title>Форма записи</title>
+</head>
+<body>
+<header>
+<h1>Запись на курсы программирования</h1>
+<hr>
+</header>
+<main>
+<form method='POST' accept-charset="UTF-8" action="#" autocomplete="on" class='form' >
+<div><label>Имя: <br> <input type='text' name="name" required autocomplete="name" placeholder='Имя'></label></div>
+<div>
+    <input type="radio" id="contactChoice1"
+     name="contact" value="java">
+    <label for="contactChoice1">Java</label>
+
+    <input type="radio" id="contactChoice2"
+     name="contact" value="c++">
+    <label for="contactChoice2">C++</label>
+
+    <input type="radio" id="contactChoice3"
+     name="contact" value="python">
+    <label for="contactChoice3">Python</label>
+	
+	<input type="radio" id="contactChoice4"
+     name="contact" value="php">
+    <label for="contactChoice3">PHP</label>
+	
+	<input type="radio" id="contactChoice5"
+     name="contact" value="javaScript">
+    <label for="contactChoice3">JavaScript</label>
+  </div>
+  <div><label>Дополнительная информация: <br></label>
+  <textarea rows="10" cols="40" name="information" placeholder= 'Какие-нибудь курсы?'></textarea></div>
+  <div><label>Секретное слово: <br> <input type='password' name="secretWord" required autocomplete="name" placeholder='Секретное слово'></label>
+  </div>
+  <div>
+  <input type="checkbox" id="checkbox1"
+     name="rules" value="rules">
+    <label for="checkbox1">С правилами ознакомился и согласен</label>
+  </div>
+  <div class='buttons'>
+  <button class="button" type="submit">Отправить</button>
+  <button class="button" type="reset">Очистить</button>
+  </div>
+</form>
+</main>
+<footer>
+<hr>
+Made by Ruslan 
+</footer>
+</body>

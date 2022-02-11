@@ -1,0 +1,23 @@
+.block{
+	border: 1px solid #D3D3D3;
+	height:300px;
+	width:500px;
+	//background-color:#008080;
+	border: 3px solid #008080;
+	border-radius: 10px;
+    padding:20px;
+	background-color:rgba(211, 211, 211, 0.9);
+	font-family:Arial, sans-serif;
+}
+.header-date{
+		text-align:right;
+	    font-size:25px;
+}
+.main-article h1{
+ font-size:40px;
+}
+.content{
+	
+	margin-top:20%;
+	 font-size:25px;
+}

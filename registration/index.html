@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="style.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<title>Форма регистрации</title>
+</head>
+<body>
+<div class='white-block'>
+<div class='form-block'>
+<h1>Account login</h1>
+<form method='POST' accept-charset="UTF-8" action="#" autocomplete="on" class='form'>
+<div class='first-field'><label>Username
+<br>
+<input type='text' name="name" required autocomplete="name">
+</label>
+</div>
+<div class='password'><label>Password
+<br>
+<input type='password' name="password" id='password-input' required autocomplete="password">
+<a href="#" class="password-control"></a>
+</label>
+</div>
+<div class='text-under-field'>
+<div class='flex1'>
+  <input type="checkbox" id="checkbox1"
+     name="rules" value="rules">
+    <label for="checkbox1">Remember me</label>
+  </div>
+  <div class='flex2'>
+  <a href="#" class="forgot-password">Forgot Password?</a>
+  </div>
+</div>
+<div>
+<button class="button" type="submit"><b>Login</b></button>
+</div>
+</form>
+</div>
+</div>
+</body>
+<script type="text/javascript">
+$('body').on('click', '.password-control', function(){
+	if ($('#password-input').attr('type') == 'password'){
+		$('#password-input').attr('type', 'text');
+	} else {
+		$('#password-input').attr('type', 'password');
+	}
+	return false;
+});
+</script>

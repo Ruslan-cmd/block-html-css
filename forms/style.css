@@ -1,0 +1,10 @@
+hr {
+    border: none; 
+    background-color: gray; 
+    color: gray; 
+    height: 1px; 
+	box-shadow: 0.5px -0.5px gray;
+   }
+form div {
+	margin-top:20px;
+}
